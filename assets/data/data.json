@@ -1,3 +1,18 @@
 {
-    "test": "test"
+    "title": "Meet our team",
+    "subtitle": "Where Work Meets Play, and Creativity Knows No Bounds! Meet our team of rockstars - each one a unique flavor in our delicious blend of awesomeness",
+    "profiles": [
+        {
+            "name": "profile-1",
+            "imageUrl": "assets/images/profile-1.avif"
+        },
+        {
+            "name": "profile-2",
+            "imageUrl": "assets/images/profile-2.avif"
+        },
+        {
+            "name": "profile-3",
+            "imageUrl": "assets/images/profile-3.avif"
+        }
+    ]
 }
