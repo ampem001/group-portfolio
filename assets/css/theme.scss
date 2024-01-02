@@ -1,3 +1,5 @@
+@import '../css/mixins.scss';
+
 html {
     --background: #8793a0;
     --background_2: #fff;
@@ -10,6 +12,8 @@ html {
     --secondary: #1c1c1c;
     --bg-opacity: 90%;
     --white: #fafbfc;
+    --header-height: 4em;
+    --max-content-width: 900px;
 }
 
 html[data-theme='dark'] {
@@ -22,8 +26,6 @@ html[data-theme='dark'] {
     --primary: #006fff;
     --primary_2: #197dff;
     --secondary: #fff;
-    --bg-opacity: 90%;
-    --white: #fafbfc;
 }
 
 .section {
@@ -35,8 +37,8 @@ html[data-theme='dark'] {
 }
 
 .hero-section {
-    min-height: calc(580px - 4em);
-    // height: calc(100vh - 4em);
+    min-height: calc(580px - (4em + var(--header-height)));
+    // max-height: calc(100vh - 4em);
     margin: 2em 1em;
     display: flex;
     flex-direction: column;
@@ -58,40 +60,6 @@ html[data-theme='dark'] {
         transform-origin: 70% 70%;
         position: relative;
     }
-
-    @keyframes hi {
-        0% {
-            transform: rotate(0)
-        }
-
-        10% {
-            transform: rotate(14deg)
-        }
-
-        20% {
-            transform: rotate(-8deg)
-        }
-
-        30% {
-            transform: rotate(14deg)
-        }
-
-        40% {
-            transform: rotate(-4deg)
-        }
-
-        50% {
-            transform: rotate(10deg)
-        }
-
-        60% {
-            transform: rotate(0)
-        }
-
-        to {
-            transform: rotate(0)
-        }
-    }
 }
 
 .slogan {
@@ -99,6 +67,11 @@ html[data-theme='dark'] {
     font-size: 4.2em;
     font-weight: 900;
     text-align: center;
+
+    @include media-mobile {
+        font-size: 3em;
+        line-height: 0.90em;
+    }
 
     span {
         color: var(--primary);
@@ -150,5 +123,47 @@ html[data-theme='dark'] {
 
     &:hover {
         transform: scale(1.05);
+    }
+}
+
+
+
+@keyframes hi {
+    0% {
+        transform: rotate(0)
+    }
+
+    10% {
+        transform: rotate(14deg)
+    }
+
+    20% {
+        transform: rotate(-8deg)
+    }
+
+    30% {
+        transform: rotate(14deg)
+    }
+
+    40% {
+        transform: rotate(-4deg)
+    }
+
+    50% {
+        transform: rotate(10deg)
+    }
+
+    60% {
+        transform: rotate(0)
+    }
+
+    to {
+        transform: rotate(0)
+    }
+}
+
+@mixin media-landscape {
+    @media (orientation: landscape) {
+        @content;
     }
 }

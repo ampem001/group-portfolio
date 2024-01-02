@@ -1,22 +1,22 @@
 {
-    "greetings": "Kumusta! <span class='hi'>👋</span> Lets get started!",
+    "greetings": "Kamusta! <span class='hi'>👋</span> Lets get started!",
     "slogan": "Meet the <span>A-Team</span></br>We're <span>not just students</span></br>We're the <span>architects of fun</span>!",
     "disclaimer": "Click on these beautiful faces to learn more about us",
     "profiles": [
         {
-            "route": "john",
-            "name": "John Doe",
-            "imageUrl": "assets/images/profile-1.jpg"
+            "route": "gheorgia",
+            "name": "Jack Stone",
+            "imageUrl": "assets/images/profile-3.jpg"
         },
         {
-            "route": "peter",
+            "route": "marnix",
             "name": "Peter Parker",
             "imageUrl": "assets/images/profile-2.jpg"
         },
         {
-            "route": "jack",
-            "name": "Jack Stone",
-            "imageUrl": ""
+            "route": "sho",
+            "name": "John Doe",
+            "imageUrl": "assets/images/profile-1.jpg"
         }
     ]
 }
