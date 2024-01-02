@@ -6,12 +6,12 @@
         {
             "route": "john",
             "name": "John Doe",
-            "imageUrl": "assets/images/profile-1.jpeg"
+            "imageUrl": "assets/images/profile-1.jpg"
         },
         {
             "route": "peter",
             "name": "Peter Parker",
-            "imageUrl": ""
+            "imageUrl": "assets/images/profile-2.jpg"
         },
         {
             "route": "jack",
