@@ -1,18 +1,22 @@
 {
-    "title": "Meet our team",
-    "subtitle": "Where Work Meets Play, and Creativity Knows No Bounds! Meet our team of rockstars - each one a unique flavor in our delicious blend of awesomeness",
+    "greetings": "Kumusta! <span class='hi'>👋</span> Lets get started!",
+    "slogan": "Meet the <span>A-Team</span></br>We're <span>not just students</span></br>We're the <span>architects of fun</span>!",
+    "disclaimer": "Click on these beautiful faces to learn more about us",
     "profiles": [
         {
-            "name": "profile-1",
-            "imageUrl": "assets/images/profile-1.avif"
+            "route": "john",
+            "name": "John Doe",
+            "imageUrl": "assets/images/profile-1.jpeg"
         },
         {
-            "name": "profile-2",
-            "imageUrl": "assets/images/profile-2.avif"
+            "route": "peter",
+            "name": "Peter Parker",
+            "imageUrl": ""
         },
         {
-            "name": "profile-3",
-            "imageUrl": "assets/images/profile-3.avif"
+            "route": "jack",
+            "name": "Jack Stone",
+            "imageUrl": ""
         }
     ]
 }
