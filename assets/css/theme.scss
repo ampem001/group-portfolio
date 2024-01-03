@@ -39,11 +39,12 @@ html[data-theme='dark'] {
     margin-right: auto;
     max-width: 900px;
     width: 100vw;
+    padding: 0.75em 0;
 }
 
 .hero-section {
     min-height: calc(580px - (4em + var(--header-height)));
-    height: calc(100vh -  (4em + var(--header-height)));
+    height: calc(100vh - (4em + var(--header-height)));
     max-width: 900px;
     width: 100vw;
     margin: 2em 1em;
@@ -53,6 +54,8 @@ html[data-theme='dark'] {
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    padding: 0 0.75em;
+    box-sizing: border-box;
 }
 
 .list-wrapper {
@@ -62,10 +65,23 @@ html[data-theme='dark'] {
     align-items: center;
     column-gap: 2em;
     row-gap: 2em;
+    padding: 0;
+
+    @include media-mobile {
+        row-gap: 0;
+        column-gap: 0;
+    }
 
     li {
         border-left: dashed 1px var(--gray);
         padding: 0 2em;
+
+        @include media-mobile {
+            flex: 1 0 0;
+            text-align: center;
+            min-width: 25%;
+            padding: 0 0.5em;
+        }
 
         &:first-of-type {
             border-left: none;
@@ -80,6 +96,12 @@ html[data-theme='dark'] {
     align-items: center;
     column-gap: 0.5em;
     row-gap: 0.5em;
+}
+
+.column_mobile {
+    @include media-mobile {
+        flex-direction: column;
+    }
 }
 
 .greetings {
@@ -108,7 +130,7 @@ html[data-theme='dark'] {
 
     @include media-mobile {
         font-size: 3em;
-        line-height: 0.90em;
+        line-height: 1.25em;
     }
 
     span {

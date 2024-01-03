@@ -3,15 +3,15 @@
     "intro": "<span>Code Ninja</span> in Training: Where <span>Bugs Bow</span> and <span>Creativity Rules</span>!",
     "mini_info": [
         {
-            "label": "Projects<br>Completed",
+            "label": "Projects Completed",
             "value": "1 +"
         },
         {
-            "label": "Lines of <br>code written",
+            "label": "Lines of code written",
             "value": "5k"
         },
         {
-            "label": "Cups of coffee<br>consumed",
+            "label": "Cups of coffee consumed",
             "value": "100"
         }
     ],
