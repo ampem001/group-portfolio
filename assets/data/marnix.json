@@ -1,0 +1,19 @@
+{
+    "greetings": "Kamusta! <span class='hi'>👋</span> I'm Marnix Ampeloquio",
+    "intro": "<span>Code Ninja</span> in Training: Where <span>Bugs Bow</span> and <span>Creativity Rules</span>!",
+    "mini_info": [
+        {
+            "label": "Projects<br>Completed",
+            "value": "1 +"
+        },
+        {
+            "label": "Lines of <br>code written",
+            "value": "5k"
+        },
+        {
+            "label": "Cups of coffee<br>consumed",
+            "value": "100"
+        }
+    ],
+    "resume": "assets/resume/Marnix_Ampeloquio.pdf"
+}
