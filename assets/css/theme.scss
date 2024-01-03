@@ -14,6 +14,7 @@ html {
     --white: #fafbfc;
     --header-height: 4em;
     --max-content-width: 900px;
+    --image-invert-rate: 0%;
 }
 
 html[data-theme='dark'] {
@@ -26,6 +27,7 @@ html[data-theme='dark'] {
     --primary: #006fff;
     --primary_2: #197dff;
     --secondary: #fff;
+    --image-invert-rate: 100%;
 }
 
 .section {
@@ -107,23 +109,47 @@ html[data-theme='dark'] {
 
 .btn {
     display: block;
-    font-size: 1.15rem;
+    font-size: 1.15em;
     font-weight: 600;
     padding: 1em 2.5em;
-    border-radius: 2rem;
+    border-radius: 2em;
     text-decoration: none;
-    transition: transform ease-in-out 300ms;
     color: var(--text);
     background-color: color-mix(in lab, transparent var(--bg-opacity), var(--text));
+    cursor: pointer;
+    transition: transform ease-in-out 300ms;
+
+    &:hover {
+        transform: scale(1.05);
+    }
 
     &-primary {
         color: var(--white);
         background-color: var(--primary);
     }
 
-    &:hover {
-        transform: scale(1.05);
+    &-icon {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        width: 2.25em;
+        height: 2.25em;
+        padding: 0;
+        border-radius: 0.5em;
+        background-color: color-mix(in lab, transparent 0, var(--text));
+        transition: all ease-in-out 300ms;
+
+        img {
+            filter: invert(var(--image-invert-rate));
+        }
+
+        &:hover {
+            background-color: color-mix(in lab, transparent var(--bg-opacity), var(--text));
+            transform: scale(1);
+        }
     }
+
 }
 
 
