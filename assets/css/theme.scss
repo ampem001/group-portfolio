@@ -55,6 +55,10 @@ html[data-theme='dark'] {
     margin-right: auto;
     padding: 0 1.5em;
     box-sizing: content-box;
+
+    @include media-mobile {
+        min-height: 768px;
+    }
 }
 
 .list-wrapper {
