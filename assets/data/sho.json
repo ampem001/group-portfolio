@@ -55,6 +55,14 @@
             "img": "assets/icons/openai.svg",
             "label": "ChatGPT"
         }
+    ],
+    "experiences": [
+        {
+            "company": "Lyceum of the Philippines University - Cavite",
+            "years": "2023 - Present",
+            "job_title": "IT Student",
+            "description": "Currently gaining knowledge and honing my skills"
+        }
     ]
 }
 

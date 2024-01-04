@@ -55,5 +55,25 @@
             "img": "assets/icons/openai.svg",
             "label": "ChatGPT"
         }
+    ],
+    "experiences": [
+        {
+            "company": "Lyceum of the Philippines University - Cavite",
+            "years": "2023 - Present",
+            "job_title": "IT Student",
+            "description": "Currently gaining knowledge and honing my skills"
+        },
+        {
+            "company": "CBM General Merchandising Business",
+            "years": "2020 - Present",
+            "job_title": "Assistant Manager",
+            "description": "Help to accomplish orders of school supplies for public schools"
+        },
+        {
+            "company": "McDonalds",
+            "years": "2016 - 2017",
+            "job_title": "Service Crew",
+            "description": "Maintaining a tidy and clean workplace and guest service area, as well as extending a warm welcome to our customers and accurately taking and serving orders for our delicious internationally renowned food and beverages"
+        }
     ]
 }

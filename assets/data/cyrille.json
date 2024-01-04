@@ -55,5 +55,25 @@
             "img": "assets/icons/openai.svg",
             "label": "ChatGPT"
         }
+    ],
+    "experiences": [
+        {
+            "company": "Lyceum of the Philippines University - Cavite",
+            "years": "2023 - Present",
+            "job_title": "IT Student",
+            "description": "Currently gaining knowledge and honing my skills"
+        },
+        {
+            "company": "TW Group",
+            "years": "2022 - Present",
+            "job_title": "Virtual Assistant",
+            "description": "Scheduled and organized 50+ appointments weekly, leading to a 60% improvement in time management. Composed and edited 30+ corporate emails daily, improving office communication by 70%. Managed a virtual project, saving company 20% on overhead costs."
+        },
+        {
+            "company": "TW Group",
+            "years": "2019 - 2021",
+            "job_title": "Accounting",
+            "description": "Generated invoices and follow-up with clients for payments. Maintained all financial records and ensure it is GST compliant using QuickBooks. Created a quarterly profit-and-loss statement. Developed a handbook for maintaining financial records. Generated yearly balance sheets for filing income tax returns"
+        }
     ]
 }
