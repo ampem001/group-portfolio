@@ -4,18 +4,15 @@
     "disclaimer": "Click on these beautiful faces to learn more about us",
     "profiles": [
         {
-            "route": "gheorgia",
-            "name": "Jack Stone",
+            "route": "cyrille",
             "imageUrl": "assets/images/profile-3.jpg"
         },
         {
             "route": "marnix",
-            "name": "Marnix Ampeloquio",
             "imageUrl": "assets/images/profile-2.jpg"
         },
         {
             "route": "sho",
-            "name": "John Doe",
             "imageUrl": "assets/images/profile-1.jpg"
         }
     ]

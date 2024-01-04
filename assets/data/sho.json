@@ -1,4 +1,21 @@
 {
-    "greetings": "Kamusta! <span class='hi'>👋</span> I'm Marnix Ampeloquio",
-    "intro": "<span>Code Ninja</span> in Training: Where <span>Bugs Bow</span> and <span>Creativity Rules</span>!"
+    "greetings": "Kamusta! <span class='hi'>👋</span> I'm Sho Sabesaje",
+    "intro": "<span>Byte Me to the Future</span>: Unleashing the Fun Side of Code in My Student Developer Playground",
+    "mini_info": [
+        {
+            "label": "Projects Completed",
+            "value": "1 +"
+        },
+        {
+            "label": "Lines of code written",
+            "value": "5k"
+        },
+        {
+            "label": "Cups of coffee consumed",
+            "value": "100"
+        }
+    ],
+    "resume": "assets/resume/Sho_Sabesaje.pdf",
+    "about_me": "I'm a student currently immersed in the realms of accountancy and business management, but my true passion lies in the dynamic world of IT. Armed with analytical skills from my financial studies, I'm eager to navigate the challenges of the tech field. Off the academic grid, you'll find me on the basketball court, where I not only stay physically active but also hone skills in teamwork and strategy. I also actively engage in religious activities, finding a sense of purpose and community that complements my academic and athletic pursuits. As I strive to merge these diverse experiences, I'm excited about the prospect of contributing to the IT industry, bringing a unique blend of skills and values to the table."
 }
+
