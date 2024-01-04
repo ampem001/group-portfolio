@@ -1,6 +1,7 @@
 {
+    "name": "Marnix Ampeloquio",
     "greetings": "Kamusta! <span class='hi'>👋</span> I'm Marnix Ampeloquio",
-    "intro": "<span>Code Ninja in Training</span>: Where Bugs Bow and Creativity Rules!",
+    "intro": "<span>Code Ninja in Training</span><br>Bugs Beware, Creativity Commands!",
     "mini_info": [
         {
             "label": "Projects Completed",
@@ -74,6 +75,38 @@
             "years": "2016 - 2017",
             "job_title": "Service Crew",
             "description": "Maintaining a tidy and clean workplace and guest service area, as well as extending a warm welcome to our customers and accurately taking and serving orders for our delicious internationally renowned food and beverages"
+        }
+    ],
+    "contacts": [
+        {
+            "img": "assets/icons/email.svg",
+            "label": "Send me an email",
+            "value": "ma.ampeloquio14@gmail.com"
+        },
+        {
+            "img": "assets/icons/phone.svg",
+            "label": "Call me now",
+            "value": "+63 927 228 8018"
+        },
+        {
+            "img": "assets/icons/linkedin.svg",
+            "label": "My LinkedIn account",
+            "value": "TBD"
+        },
+        {
+            "img": "assets/icons/github.svg",
+            "label": "My Github account",
+            "value": "/nixampi"
+        },
+        {
+            "img": "assets/icons/instagram.svg",
+            "label": "My Instagram account",
+            "value": "TBD"
+        },
+        {
+            "img": "assets/icons/tiktok.svg",
+            "label": "My Tiktok account",
+            "value": "TBD"
         }
     ]
 }

@@ -1,6 +1,7 @@
 {
+    "name": "Sho Sabesaje",
     "greetings": "Kamusta! <span class='hi'>👋</span> I'm Sho Sabesaje",
-    "intro": "<span>Byte Me to the Future</span>: Unleashing the Fun Side of Code",
+    "intro": "<span>Byte Me to the Future</span><br>Unleashing the Fun Side of Code",
     "mini_info": [
         {
             "label": "Projects Completed",
@@ -62,6 +63,38 @@
             "years": "2023 - Present",
             "job_title": "IT Student",
             "description": "Currently gaining knowledge and honing my skills"
+        }
+    ],
+    "contacts": [
+        {
+            "img": "assets/icons/email.svg",
+            "label": "Send me an email",
+            "value": "constantinoshouno@gmail.com"
+        },
+        {
+            "img": "assets/icons/phone.svg",
+            "label": "Call me now",
+            "value": "+63 946 374 3980"
+        },
+        {
+            "img": "assets/icons/linkedin.svg",
+            "label": "My LinkedIn account",
+            "value": "TBD"
+        },
+        {
+            "img": "assets/icons/github.svg",
+            "label": "My Github account",
+            "value": "TBD"
+        },
+        {
+            "img": "assets/icons/instagram.svg",
+            "label": "My Instagram account",
+            "value": "TBD"
+        },
+        {
+            "img": "assets/icons/tiktok.svg",
+            "label": "My Tiktok account",
+            "value": "TBD"
         }
     ]
 }

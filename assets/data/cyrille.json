@@ -1,4 +1,5 @@
 {
+    "name": "Cyrille Vipinosa",
     "greetings": "Kamusta! <span class='hi'>👋</span> I'm Cyrille Vipinosa",
     "intro": "<span>Ctrl + Alt + Delight</span><br>Coding Rollercoaster of Fun!",
     "mini_info": [
@@ -74,6 +75,38 @@
             "years": "2019 - 2021",
             "job_title": "Accounting",
             "description": "Generated invoices and follow-up with clients for payments. Maintained all financial records and ensure it is GST compliant using QuickBooks. Created a quarterly profit-and-loss statement. Developed a handbook for maintaining financial records. Generated yearly balance sheets for filing income tax returns"
+        }
+    ],
+    "contacts": [
+        {
+            "img": "assets/icons/email.svg",
+            "label": "Send me an email",
+            "value": "cyrillevipinosa@gmail.com"
+        },
+        {
+            "img": "assets/icons/phone.svg",
+            "label": "Call me now",
+            "value": "+63 997 600 7061"
+        },
+        {
+            "img": "assets/icons/linkedin.svg",
+            "label": "My LinkedIn account",
+            "value": "TBD"
+        },
+        {
+            "img": "assets/icons/github.svg",
+            "label": "My Github account",
+            "value": "TBD"
+        },
+        {
+            "img": "assets/icons/instagram.svg",
+            "label": "My Instagram account",
+            "value": "TBD"
+        },
+        {
+            "img": "assets/icons/tiktok.svg",
+            "label": "My Tiktok account",
+            "value": "TBD"
         }
     ]
 }
