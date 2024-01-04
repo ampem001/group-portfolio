@@ -16,5 +16,44 @@
         }
     ],
     "resume": "assets/resume/Cyrille_Vipinosa.pdf",
-    "about_me": "I am a determined student with a background in accounting, equipped with two years of experience in financial analysis and management. My passion for technology has led me to aspire to become an IT consultant, aiming to leverage my analytical skills from accounting to provide a distinctive perspective on complex business challenges. Currently working as a virtual assistant, I specialize in efficiently scheduling appointments through email communication. This role not only hones my organizational and communication skills but also exposes me to the nuances of remote work, an invaluable asset in today's professional landscape.<br><br>In my journey toward IT consulting, I am actively pursuing continuous learning, staying updated on industry trends, and fostering a strong work-life balance. Excited about merging my diverse background with the dynamic field of IT, I am dedicated to contributing effective solutions and making a meaningful impact on business success. Whether tackling coding challenges or exploring the latest tech advancements, I am eager to embrace opportunities for growth and development."
+    "about_me": "I am a determined student with a background in accounting, equipped with two years of experience in financial analysis and management. My passion for technology has led me to aspire to become an IT consultant, aiming to leverage my analytical skills from accounting to provide a distinctive perspective on complex business challenges. Currently working as a virtual assistant, I specialize in efficiently scheduling appointments through email communication. This role not only hones my organizational and communication skills but also exposes me to the nuances of remote work, an invaluable asset in today's professional landscape.<br><br>In my journey toward IT consulting, I am actively pursuing continuous learning, staying updated on industry trends, and fostering a strong work-life balance. Excited about merging my diverse background with the dynamic field of IT, I am dedicated to contributing effective solutions and making a meaningful impact on business success. Whether tackling coding challenges or exploring the latest tech advancements, I am eager to embrace opportunities for growth and development.",
+    "profile_pic": "assets/images/profile-3.jpg",
+    "skills": [
+        {
+            "img": "assets/icons/python.svg",
+            "label": "Python"
+        },
+        {
+            "img": "assets/icons/pycharm.svg",
+            "label": "Pycharm"
+        },
+        {
+            "img": "assets/icons/html5.svg",
+            "label": "HTML5"
+        },
+        {
+            "img": "assets/icons/css3.svg",
+            "label": "CSS"
+        },
+        {
+            "img": "assets/icons/javascript.svg",
+            "label": "Javascript"
+        },
+        {
+            "img": "assets/icons/google.svg",
+            "label": "Google Suite"
+        },
+        {
+            "img": "assets/icons/github.svg",
+            "label": "Github"
+        },
+        {
+            "img": "assets/icons/vscode.svg",
+            "label": "VS Code"
+        },
+        {
+            "img": "assets/icons/openai.svg",
+            "label": "ChatGPT"
+        }
+    ]
 }

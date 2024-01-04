@@ -1,6 +1,6 @@
 {
     "greetings": "Kamusta! <span class='hi'>👋</span> I'm Marnix Ampeloquio",
-    "intro": "<span>Code Ninja</span> in Training: Where <span>Bugs Bow</span> and <span>Creativity Rules</span>!",
+    "intro": "<span>Code Ninja in Training</span>: Where Bugs Bow and Creativity Rules!",
     "mini_info": [
         {
             "label": "Projects Completed",
@@ -16,5 +16,44 @@
         }
     ],
     "resume": "assets/resume/Marnix_Ampeloquio.pdf",
-    "about_me": "I'm a driven student with a passion for coding and a dream of becoming a full-stack developer. Inspired by the intricate worlds and challenges found in the games I play, I've channeled that enthusiasm into mastering the art of programming. My journey began with part-time roles at a fast-food chain, where I honed my customer service skills and learned the importance of efficiency and teamwork – qualities I aim to carry into my future tech endeavors.<br><br>In addition to my coding pursuits, I've played a hands-on role in managing a school supplies delivery business. This experience has provided me with valuable insights into logistics, organization, and the transformative impact of technology on everyday operations. As I navigate my academic path, I'm not just chasing a degree but crafting a skill set that blends creativity and problem-solving – qualities I believe are essential for creating engaging and dynamic applications in the world of full-stack development. Excited about the possibilities that lie ahead, I'm eager to merge my passion for gaming with my coding skills to contribute to the evolving landscape of technology."
+    "about_me": "I'm a driven student with a passion for coding and a dream of becoming a full-stack developer. Inspired by the intricate worlds and challenges found in the games I play, I've channeled that enthusiasm into mastering the art of programming. My journey began with part-time roles at a fast-food chain, where I honed my customer service skills and learned the importance of efficiency and teamwork – qualities I aim to carry into my future tech endeavors.<br><br>In addition to my coding pursuits, I've played a hands-on role in managing a school supplies delivery business. This experience has provided me with valuable insights into logistics, organization, and the transformative impact of technology on everyday operations. As I navigate my academic path, I'm not just chasing a degree but crafting a skill set that blends creativity and problem-solving – qualities I believe are essential for creating engaging and dynamic applications in the world of full-stack development. Excited about the possibilities that lie ahead, I'm eager to merge my passion for gaming with my coding skills to contribute to the evolving landscape of technology.",
+    "profile_pic": "assets/images/profile-2.jpg",
+    "skills": [
+        {
+            "img": "assets/icons/python.svg",
+            "label": "Python"
+        },
+        {
+            "img": "assets/icons/pycharm.svg",
+            "label": "Pycharm"
+        },
+        {
+            "img": "assets/icons/html5.svg",
+            "label": "HTML5"
+        },
+        {
+            "img": "assets/icons/css3.svg",
+            "label": "CSS"
+        },
+        {
+            "img": "assets/icons/javascript.svg",
+            "label": "Javascript"
+        },
+        {
+            "img": "assets/icons/google.svg",
+            "label": "Google Suite"
+        },
+        {
+            "img": "assets/icons/github.svg",
+            "label": "Github"
+        },
+        {
+            "img": "assets/icons/vscode.svg",
+            "label": "VS Code"
+        },
+        {
+            "img": "assets/icons/openai.svg",
+            "label": "ChatGPT"
+        }
+    ]
 }
