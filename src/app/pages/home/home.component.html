@@ -1,1 +1,23 @@
-<p>home works!</p>
+<folio-header></folio-header>
+
+<ng-container *ngIf="(data$ | async) as data">
+    <section class="hero-section">
+        <h1 class="greetings" [innerHTML]="data.greetings"></h1>
+        <p class="slogan" [innerHTML]="data.slogan"></p>
+
+        <span [innerHTML]="data.disclaimer"></span>
+
+        <div class="selection-wrapper">
+            <folio-profile-card *ngFor="let profile of data.profiles" [routerLink]="[profile.route]" [data]="profile"></folio-profile-card>
+        </div>
+
+    </section>
+</ng-container>
+<!-- 
+<div class="greetings">Mabuhay</div>
+<div class="slogan">Kamusta <span>kaibigan</span></div>
+<div class="small-text">Kamusta</div>
+<div class="count">100k</div>
+<div class="title">About me</div>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+<a class="btn" href="">test button</a> -->

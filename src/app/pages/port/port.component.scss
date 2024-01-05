@@ -1,0 +1,178 @@
+@import '../../../assets/css/mixins.scss';
+
+:host {
+    .btn-wrapper {
+        margin: 3em 0;
+        column-gap: 1rem;
+    }
+
+    .about_me {
+        flex-direction: row;
+        column-gap: 2em;
+        align-items: center;
+
+        .column {
+            align-items: start;
+        }
+
+        @include media-mobile {
+            flex-direction: column-reverse;
+        }
+    }
+
+    .skills {
+        .row {
+            flex-flow: row wrap;
+            justify-content: flex-start;
+            column-gap: 1em;
+            row-gap: 1em;
+        }
+
+        ul {
+            padding: 0;
+        }
+    }
+
+    .experience {
+
+        .timeline {
+            padding: 0;
+            row-gap: 0;
+
+            li {
+                &:nth-child(odd) {
+                    flex-direction: row-reverse;
+
+                    @include media-mobile {
+                        flex-direction: row;
+                    }
+                }
+
+                &:last-of-type {
+                    .content {
+                        padding-bottom: 1em;
+                    }
+                }
+
+
+                &.row {
+                    align-items: stretch;
+                    column-gap: 2em;
+                    width: 100%;
+                }
+
+                .space {
+                    width: 100%;
+
+                    @include media-mobile {
+                        display: none;
+                    }
+                }
+
+                .line {
+                    position: relative;
+
+                    @include media-mobile {
+                        margin-left: 0.5em;
+                    }
+
+                    &:before {
+                        position: absolute;
+                        content: "";
+                        border-left: 2px dashed color-mix(in lab, transparent var(--bg-opacity), var(--text));
+                        height: 100%;
+                    }
+
+                    &:after {
+                        position: absolute;
+                        content: "";
+                        width: 1em;
+                        height: 1em;
+                        background-color: var(--primary);
+                        border-radius: 100%;
+                        top: 0;
+                        left: calc(-0.5em + 1px);
+                        right: 0;
+                    }
+                }
+
+                .content {
+                    width: 100%;
+                    padding-bottom: 3em;
+                    margin-top: -0.25em;
+
+                    @include media-mobile {
+                        font-size: 0.85em;
+                    }
+
+                    &.column {
+                        align-items: flex-start;
+                        row-gap: 0;
+                    }
+
+                    .job-title {
+                        font-size: 1.25em;
+                        font-weight: 900;
+                    }
+
+                    .company {
+                        font-weight: 700;
+                        color: var(--gray);
+                    }
+
+                    .years {
+                        font-style: italic;
+                    }
+
+                    .description {
+                        margin-top: 0.5em;
+                    }
+                }
+            }
+        }
+    }
+
+    .contact {
+
+        ul {
+            padding: 0;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            row-gap: 3rem;
+            column-gap: 3rem;
+
+            @include media-mobile{
+                grid-template-columns: repeat(1, 1fr);
+                row-gap: 2rem;
+            }
+        }
+
+        .icon {
+            background-repeat: no-repeat;
+            background-position: 50% 50%;
+            background-size: contain;
+            width: 3em;
+            height: 3em;
+        }
+
+        .row {
+            column-gap: 1em;
+            justify-content: flex-start;
+        }
+
+        .column {
+            align-items: flex-start;
+            row-gap: 0.25em;
+        }
+
+        .text {
+            font-weight: 700;
+            @include media-mobile{
+                font-size: 1em;
+            }
+        }
+    }
+}

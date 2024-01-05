@@ -1,1 +1,73 @@
-<p>port works!</p>
+<ng-container *ngIf="(data$ | async) as data">
+
+    <folio-header></folio-header>
+
+    <section class="hero-section intro">
+        <h1 class="greetings" [innerHTML]="data.greetings"></h1>
+        <p class="slogan" [innerHTML]="data.intro"></p>
+
+        <ul class="list-wrapper">
+            <li class="row column_mobile" *ngFor="let info of data.mini_info">
+                <span class="count" [innerHTML]="info.value"></span>
+                <span class="small-text" [innerHTML]="info.label"></span>
+            </li>
+        </ul>
+
+        <div class="btn-wrapper row">
+            <a class="btn btn-primary" [href]="data.resume" target="_blank"><img src="assets/icons/resume.svg"
+                    alt="resume"><span>Resume</span></a>
+            <a class="btn" (click)="scrollContact()"><img src="assets/icons/call.svg" alt="contact"><span>Contact</span></a>
+        </div>
+    </section>
+
+    <section class="section about_me">
+        <article class="column">
+            <h1 class="title">About me</h1>
+            <p class="text" [innerHTML]="data.about_me"></p>
+        </article>
+        <div class="profile-pic" [style.background-image]="'url(' + data.profile_pic + ')'"></div>
+    </section>
+
+    <section class="section skills">
+        <h1 class="title">Skills</h1>
+        <p>Technologies and Tools</p>
+        <ul class="row">
+            <li class="box" *ngFor="let skill of data.skills">
+                <div class="icon" [style.background-image]="'url(' + skill.img + ')'"></div>
+                <span class="small-text" [innerHTML]="skill.label"></span>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section experience">
+        <h1 class="title">Experience</h1>
+        <ul class="column timeline">
+            <li class="row" *ngFor="let exp of data.experiences">
+                <div class="space"></div>
+                <div class="line"></div>
+                <article class="content column">
+                    <div class="job-title text" [innerHTML]="exp.job_title"></div>
+                    <div class="company text" [innerHTML]="exp.company"></div>
+                    <div class="years text" [innerHTML]="exp.years"></div>
+                    <div class="description text" [innerHTML]="exp.description"></div>
+                </article>
+            </li>
+        </ul>
+    </section>
+
+    <section class="section contact">
+        <h1 class="title">Contact</h1>
+        <ul class="grid">
+            <li class="row" *ngFor="let contact of data.contacts">
+                <div class="icon" [style.background-image]="'url(' + contact.img + ')'"></div>
+                <div class="column">
+                    <div class="small-text" [innerHTML]="contact.label"></div>
+                    <div class="text" [innerHTML]="contact.value"></div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <folio-footer [name]="data.name"></folio-footer>
+
+</ng-container>

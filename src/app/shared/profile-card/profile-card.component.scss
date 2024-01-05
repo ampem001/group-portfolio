@@ -1,0 +1,35 @@
+@import '../../../assets/css/mixins.scss';
+
+:host {
+    position: relative;
+    height: 250px;
+    width: 250px;
+
+    .box {
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        cursor: pointer;
+        background-color: var(--white);
+        box-shadow: 0px 100px 100px 0px rgba(0, 0, 0, 0.1),
+            0px 0px 50px 0px rgba(0, 0, 0, 0.2);
+        border-radius: 100%;
+        background-repeat: no-repeat;
+        background-position: 0% 50%;
+        background-size: cover;
+        transition: all ease-in-out 300ms;
+
+        @include media-mobile {
+            transition: none;
+        }
+
+        &:hover {
+            transform: scale(1.05);
+            box-shadow: 0px 100px 100px 0px rgba(0, 0, 0, 0.2),
+                0px 0px 50px 0px rgba(0, 0, 0, 0.4);
+            filter: grayscale(0);
+        }
+    }
+}

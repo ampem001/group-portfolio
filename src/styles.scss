@@ -1,2 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
 @import 'normalize.css';
+@import 'assets/css/satoshi.css';
+@import 'assets/css/theme.scss';
+@import 'assets/css//mixins.scss';
+
+body {
+    font-family: 'Satoshi', Arial, sans-serif;
+    font-size: 16px;
+    background-color: var(--background_2);
+    color: var(--text_2);
+}

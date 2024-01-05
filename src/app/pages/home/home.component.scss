@@ -1,0 +1,30 @@
+@import '../../../assets/css/mixins.scss';
+
+:host {
+    text-align: center;
+
+    .selection-wrapper {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        align-content: normal;
+        column-gap: 1em;
+        row-gap: 1em;
+        margin: 3em 0;
+        width: 100%;
+
+        @include media-mobile {
+            flex-direction: column;
+        }
+    }
+
+    .hero-section {
+        min-height: 948px;
+
+        @include media-mobile {
+            min-height: 1400px;
+        }
+    }
+}

@@ -1,1 +1,10 @@
-<p>footer works!</p>
+<div class="content column_mobile">
+    <a class="name" [innerHTML]="name" (click)="scrollInto('.intro')"></a>
+
+    <ul class="row column_mobile">
+        <li [routerLink]="['/']">Home</li>
+        <li *ngFor="let link of links">
+            <a (click)="scrollInto(link.target)" [innerHTML]="link.label"></a>
+        </li>
+    </ul>
+</div>

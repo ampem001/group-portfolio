@@ -1,0 +1,101 @@
+{
+    "name": "Sho Sabesaje",
+    "greetings": "Kamusta! <span class='hi'>👋</span> I'm Sho Sabesaje",
+    "intro": "<span>Byte Me to the Future</span><br>Unleashing the Fun Side of Code",
+    "mini_info": [
+        {
+            "label": "Projects Completed",
+            "value": "1 +"
+        },
+        {
+            "label": "Lines of code written",
+            "value": "5k"
+        },
+        {
+            "label": "Cups of coffee consumed",
+            "value": "100"
+        }
+    ],
+    "resume": "assets/resume/Sho_Sabesaje.pdf",
+    "about_me": "I'm a student currently immersed in the realms of accountancy and business management, but my true passion lies in the dynamic world of IT. Armed with analytical skills from my financial studies, I'm eager to navigate the challenges of the tech field. Off the academic grid, you'll find me on the basketball court, where I not only stay physically active but also hone skills in teamwork and strategy. I also actively engage in religious activities, finding a sense of purpose and community that complements my academic and athletic pursuits. As I strive to merge these diverse experiences, I'm excited about the prospect of contributing to the IT industry, bringing a unique blend of skills and values to the table.",
+    "profile_pic": "assets/images/profile-1.jpg",
+    "skills": [
+        {
+            "img": "assets/icons/python.svg",
+            "label": "Python"
+        },
+        {
+            "img": "assets/icons/pycharm.svg",
+            "label": "Pycharm"
+        },
+        {
+            "img": "assets/icons/html5.svg",
+            "label": "HTML5"
+        },
+        {
+            "img": "assets/icons/css3.svg",
+            "label": "CSS"
+        },
+        {
+            "img": "assets/icons/javascript.svg",
+            "label": "Javascript"
+        },
+        {
+            "img": "assets/icons/google.svg",
+            "label": "Google Suite"
+        },
+        {
+            "img": "assets/icons/github.svg",
+            "label": "Github"
+        },
+        {
+            "img": "assets/icons/vscode.svg",
+            "label": "VS Code"
+        },
+        {
+            "img": "assets/icons/openai.svg",
+            "label": "ChatGPT"
+        }
+    ],
+    "experiences": [
+        {
+            "company": "Lyceum of the Philippines University - Cavite",
+            "years": "2023 - Present",
+            "job_title": "IT Student",
+            "description": "Currently gaining knowledge and honing my skills"
+        }
+    ],
+    "contacts": [
+        {
+            "img": "assets/icons/email.svg",
+            "label": "Send me an email",
+            "value": "constantinoshouno@gmail.com"
+        },
+        {
+            "img": "assets/icons/phone.svg",
+            "label": "Call me now",
+            "value": "+63 946 374 3980"
+        },
+        {
+            "img": "assets/icons/linkedin.svg",
+            "label": "My LinkedIn account",
+            "value": "TBD"
+        },
+        {
+            "img": "assets/icons/github.svg",
+            "label": "My Github account",
+            "value": "TBD"
+        },
+        {
+            "img": "assets/icons/instagram.svg",
+            "label": "My Instagram account",
+            "value": "TBD"
+        },
+        {
+            "img": "assets/icons/tiktok.svg",
+            "label": "My Tiktok account",
+            "value": "TBD"
+        }
+    ]
+}
+

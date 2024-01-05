@@ -1,0 +1,112 @@
+{
+    "name": "Marnix Ampeloquio",
+    "greetings": "Kamusta! <span class='hi'>👋</span> I'm Marnix Ampeloquio",
+    "intro": "<span>Code Ninja in Training</span><br>Bugs Beware, Creativity Commands!",
+    "mini_info": [
+        {
+            "label": "Projects Completed",
+            "value": "1 +"
+        },
+        {
+            "label": "Lines of code written",
+            "value": "5k"
+        },
+        {
+            "label": "Cups of coffee consumed",
+            "value": "100"
+        }
+    ],
+    "resume": "assets/resume/Marnix_Ampeloquio.pdf",
+    "about_me": "I'm a driven student with a passion for coding and a dream of becoming a full-stack developer. Inspired by the intricate worlds and challenges found in the games I play, I've channeled that enthusiasm into mastering the art of programming. My journey began with part-time roles at a fast-food chain, where I honed my customer service skills and learned the importance of efficiency and teamwork – qualities I aim to carry into my future tech endeavors.<br><br>In addition to my coding pursuits, I've played a hands-on role in managing a school supplies delivery business. This experience has provided me with valuable insights into logistics, organization, and the transformative impact of technology on everyday operations. As I navigate my academic path, I'm not just chasing a degree but crafting a skill set that blends creativity and problem-solving – qualities I believe are essential for creating engaging and dynamic applications in the world of full-stack development. Excited about the possibilities that lie ahead, I'm eager to merge my passion for gaming with my coding skills to contribute to the evolving landscape of technology.",
+    "profile_pic": "assets/images/profile-2.jpg",
+    "skills": [
+        {
+            "img": "assets/icons/python.svg",
+            "label": "Python"
+        },
+        {
+            "img": "assets/icons/pycharm.svg",
+            "label": "Pycharm"
+        },
+        {
+            "img": "assets/icons/html5.svg",
+            "label": "HTML5"
+        },
+        {
+            "img": "assets/icons/css3.svg",
+            "label": "CSS"
+        },
+        {
+            "img": "assets/icons/javascript.svg",
+            "label": "Javascript"
+        },
+        {
+            "img": "assets/icons/google.svg",
+            "label": "Google Suite"
+        },
+        {
+            "img": "assets/icons/github.svg",
+            "label": "Github"
+        },
+        {
+            "img": "assets/icons/vscode.svg",
+            "label": "VS Code"
+        },
+        {
+            "img": "assets/icons/openai.svg",
+            "label": "ChatGPT"
+        }
+    ],
+    "experiences": [
+        {
+            "company": "Lyceum of the Philippines University - Cavite",
+            "years": "2023 - Present",
+            "job_title": "IT Student",
+            "description": "Currently gaining knowledge and honing my skills"
+        },
+        {
+            "company": "CBM General Merchandising Business",
+            "years": "2020 - Present",
+            "job_title": "Assistant Manager",
+            "description": "Help to accomplish orders of school supplies for public schools"
+        },
+        {
+            "company": "McDonalds",
+            "years": "2016 - 2017",
+            "job_title": "Service Crew",
+            "description": "Maintaining a tidy and clean workplace and guest service area, as well as extending a warm welcome to our customers and accurately taking and serving orders for our delicious internationally renowned food and beverages"
+        }
+    ],
+    "contacts": [
+        {
+            "img": "assets/icons/email.svg",
+            "label": "Send me an email",
+            "value": "ma.ampeloquio14@gmail.com"
+        },
+        {
+            "img": "assets/icons/phone.svg",
+            "label": "Call me now",
+            "value": "+63 927 228 8018"
+        },
+        {
+            "img": "assets/icons/linkedin.svg",
+            "label": "My LinkedIn account",
+            "value": "TBD"
+        },
+        {
+            "img": "assets/icons/github.svg",
+            "label": "My Github account",
+            "value": "/nixampi"
+        },
+        {
+            "img": "assets/icons/instagram.svg",
+            "label": "My Instagram account",
+            "value": "TBD"
+        },
+        {
+            "img": "assets/icons/tiktok.svg",
+            "label": "My Tiktok account",
+            "value": "TBD"
+        }
+    ]
+}

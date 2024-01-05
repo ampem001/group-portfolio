@@ -1,1 +1,11 @@
-<p>header works!</p>
+<div class="content">
+    <div>
+        <a *ngIf="pageAlias !== PAGE_ALIAS.HOME" class="btn btn-icon" [routerLink]="['/']">
+            <img src="assets/icons/home.svg" alt="home">
+        </a>
+    </div>
+    <div class="btn btn-icon" (click)="toggleTheme()">
+        <img *ngIf="!darkMode" src="assets/icons/sun.svg" alt="light mode">
+        <img *ngIf="darkMode" src="assets/icons/moon.svg" alt="dark mode">
+    </div>
+</div>

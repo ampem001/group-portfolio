@@ -1,3 +1,19 @@
 {
-    "test": "test"
+    "greetings": "Kamusta! <span class='hi'>👋</span> Lets get started!",
+    "slogan": "Meet the <span>A-Team</span></br>We're <span>not just students</span></br>We're the <span>architects of fun</span>!",
+    "disclaimer": "Click on these beautiful faces to learn more about us",
+    "profiles": [
+        {
+            "route": "cyrille",
+            "imageUrl": "assets/images/profile-3.jpg"
+        },
+        {
+            "route": "marnix",
+            "imageUrl": "assets/images/profile-2.jpg"
+        },
+        {
+            "route": "sho",
+            "imageUrl": "assets/images/profile-1.jpg"
+        }
+    ]
 }

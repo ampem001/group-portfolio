@@ -1,0 +1,61 @@
+@import '../../../../assets/css/mixins.scss';
+
+:host {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: var(--header-height);
+    min-width: 100vw;
+    margin-top: 2em;
+
+    @include media-mobile {
+        height: auto;
+
+        .column_mobile {
+            &.content {
+                padding-top: 1em;
+            }
+
+            &.content,
+            &.row {
+                align-items: flex-start;
+                row-gap: 1em;
+            }
+        }
+    }
+
+
+    .content {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        max-width: var(--max-content-width);
+        width: 100%;
+        padding: 0 1.5em;
+        border-top: 1px solid color-mix(in lab, transparent var(--bg-opacity), var(--text));
+
+        .name {
+            font-weight: 700;
+        }
+
+        .row {
+            column-gap: 2em;
+        }
+
+        a {
+            cursor: pointer;
+        }
+
+        ul {
+            padding: 0;
+        }
+
+        li {
+            list-style: none;
+
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
